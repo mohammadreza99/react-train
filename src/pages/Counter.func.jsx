@@ -1,5 +1,5 @@
 import {useState} from "react";
-import styles from './Counter.module.css';
+import styles from './Counter.module.scss';
 
 const Counter = () => {
     let [counter, setCounter] = useState(0)
@@ -9,7 +9,7 @@ const Counter = () => {
     return (
         <>
             <h3 className={styles.h3}>func - {counter}</h3>
-            <button onClick={inc}>Inc</button>
+            <button className="btn btn-primary" onClick={inc}>Inc</button>
         </>
     )
 }

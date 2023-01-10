@@ -1,5 +1,5 @@
 import {Component} from "react";
-import styles from './Counter.module.css';
+import styles from './Counter.module.scss';
 
 class Counter extends Component {
     state = {
