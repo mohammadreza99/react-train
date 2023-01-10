@@ -1,11 +1,14 @@
-import Counter from "./components/Counter.class";
-// import Counter from "./components/Counter.func";
+import Navbar from "./components/Navbar";
+import {Outlet} from "react-router-dom";
+
 
 const App = () => {
     return (
         <>
-            <h1>App Works!</h1>
-            <Counter/>
+            <Navbar/>
+            <div className="p-3">
+                <Outlet/>
+            </div>
         </>
     )
 }
