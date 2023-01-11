@@ -2,7 +2,7 @@ import {Link, NavLink} from "react-router-dom";
 
 const Navbar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav className="navbar navbar-expand bg-dark navbar-dark">
             <div className="container-fluid">
                 <Link className="navbar-brand" to="/">React JS</Link>
                 <button className="navbar-toggler" type="button">
@@ -20,7 +20,7 @@ const Navbar = () => {
                             {/*    to="/counter">Counter </NavLink>*/}
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active" to="/todo">Todo</NavLink>
+                            <NavLink className="nav-link" activeClassName="active" to="/contact-list">Contact Manager</NavLink>
                         </li>
                     </ul>
                 </div>

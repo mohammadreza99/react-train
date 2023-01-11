@@ -24,10 +24,10 @@ class Counter extends Component {
     render() {
         const {counter, name} = this.state;
         return (
-            <>
+            <div className="p-3">
                 <h3 className={styles.h3}>class - {counter}</h3>
                 <button onClick={this.inc.bind(this)}>Inc</button>
-            </>
+            </div>
         )
     }
 }

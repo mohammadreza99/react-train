@@ -1,160 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74839f90-233b-4940-abca-343982e71338" name="Changes" comment="change source files">
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_containers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_helpers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_maps.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_offcanvas.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_placeholders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/bootstrap-utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_floating-labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_form-check.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_form-control.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_form-range.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_form-select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_form-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_labels.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/forms/_validation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_color-bg.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_colored-links.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_ratio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_stacks.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_stretched-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_text-truncation.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_visually-hidden.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/helpers/_vr.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_backdrop.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_banner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_color-scheme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_container.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_deprecate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_table-variants.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/mixins/_visually-hidden.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/utilities/_api.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/vendor/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+    <list default="true" id="74839f90-233b-4940-abca-343982e71338" name="Changes" comment="implement routing">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactModify.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSans-FaNum_Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSans-FaNum_Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSans-FaNum_Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSans-FaNum_Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSans-FaNum_Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSans-FaNum_Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSans-FaNum_Normal.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSans-FaNum_Normal.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSans-FaNum_UltraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSans-FaNum_UltraLight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSansWeb_Black.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSansWeb_Black.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSansWeb_Bold.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSansWeb_Bold.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSansWeb_Light.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSansWeb_Light.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSansWeb_Medium.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSansWeb_Medium.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSansWeb_Normal.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSansWeb_Normal.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/eot/IRANSansWeb_UltraLight.eot" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/eot/IRANSansWeb_UltraLight.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/iran-sans.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/iran-sans.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSans-FaNum_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSans-FaNum_Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSans-FaNum_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSans-FaNum_Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSans-FaNum_Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSans-FaNum_Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSans-FaNum_Normal.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSans-FaNum_Normal.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSans-FaNum_UltraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSans-FaNum_UltraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSansWeb_Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSansWeb_Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSansWeb_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSansWeb_Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSansWeb_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSansWeb_Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSansWeb_Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSansWeb_Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSansWeb_Normal.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSansWeb_Normal.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/ttf/IRANSansWeb_UltraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/ttf/IRANSansWeb_UltraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSans-FaNum_Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSans-FaNum_Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSans-FaNum_Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSans-FaNum_Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSans-FaNum_Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSans-FaNum_Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSans-FaNum_Normal.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSans-FaNum_Normal.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSans-FaNum_UltraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSans-FaNum_UltraLight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSansWeb_Black.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSansWeb_Black.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSansWeb_Bold.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSansWeb_Bold.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSansWeb_Light.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSansWeb_Light.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSansWeb_Medium.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSansWeb_Medium.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSansWeb_Normal.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSansWeb_Normal.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff/IRANSansWeb_UltraLight.woff" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff/IRANSansWeb_UltraLight.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSans-FaNum_Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSans-FaNum_Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSans-FaNum_Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSans-FaNum_Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSans-FaNum_Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSans-FaNum_Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSans-FaNum_Normal.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSans-FaNum_Normal.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSans-FaNum_UltraLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSans-FaNum_UltraLight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSansWeb_Black.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSansWeb_Black.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSansWeb_Bold.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSansWeb_Bold.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSansWeb_Light.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSansWeb_Light.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSansWeb_Medium.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSansWeb_Medium.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSansWeb_Normal.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSansWeb_Normal.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/fonts/iran-sans/woff2/IRANSansWeb_UltraLight.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/iran-sans/woff2/IRANSansWeb_UltraLight.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.class.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.class.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.func.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.func.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Counter.class.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.class.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Counter.func.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.func.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -177,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prime-crud" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -188,6 +59,7 @@
       <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\components" />
       <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\pages" />
       <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\assets" />
     </key>
@@ -201,7 +73,8 @@
       <option name="presentableId" value="Default" />
       <updated>1673177292572</updated>
       <workItem from="1673177294712" duration="1097000" />
-      <workItem from="1673331972637" duration="10650000" />
+      <workItem from="1673331972637" duration="16256000" />
+      <workItem from="1673422598878" duration="11587000" />
     </task>
     <task id="LOCAL‎۰۰۰۰۱" summary="change source files">
       <created>1673177343413</created>
@@ -215,7 +88,55 @@
       <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
       <updated>1673177358486</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL‎۰۰۰۰۳" summary="add bootstrap files">
+      <created>1673348602330</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
+      <updated>1673348602330</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۴" summary="add font files">
+      <created>1673348626899</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
+      <updated>1673348626899</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۵" summary="add font files">
+      <created>1673348654019</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1673348654019</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۶" summary="move components to components folder">
+      <created>1673348671446</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
+      <updated>1673348671446</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۷" summary="add react-router and sass">
+      <created>1673348702581</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1673348702581</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۸" summary="create navbar component">
+      <created>1673348719076</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
+      <updated>1673348719076</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۹" summary="remove styles from index.html">
+      <created>1673348740602</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۹" />
+      <updated>1673348740602</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۰" summary="implement routing">
+      <created>1673348753614</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۰" />
+      <updated>1673348753614</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +158,13 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="change source files" />
-    <option name="LAST_COMMIT_MESSAGE" value="change source files" />
+    <MESSAGE value="add bootstrap files" />
+    <MESSAGE value="add font files" />
+    <MESSAGE value="move components to components folder" />
+    <MESSAGE value="add react-router and sass" />
+    <MESSAGE value="create navbar component" />
+    <MESSAGE value="remove styles from index.html" />
+    <MESSAGE value="implement routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement routing" />
   </component>
 </project>
