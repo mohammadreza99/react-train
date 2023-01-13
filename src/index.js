@@ -6,9 +6,8 @@ import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import './assets/css/style.scss';
 import App from "./App";
 import Counter from "./pages/Counter.func";
-import ContactList from "./pages/ContactList";
-import ContactModify from "./pages/ContactModify";
-// import Counter from "./pages/Counter.class";
+import UserList from "./pages/UserList";
+import UserModify from "./pages/UserModify";
 
 const root = ReactDom.createRoot(document.getElementById('root'));
 root.render(
@@ -16,10 +15,13 @@ root.render(
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<App/>}>
+                    <Route path="/user">
+                        <Route path="list" element={<UserList/>}/>
+                        <Route path="modify" element={<UserModify/>}/>
+                        <Route path="" element={<Navigate to="list"/>}/>
+                    </Route>
                     <Route path="/counter" element={<Counter/>}/>
-                    <Route path="/contact-list" element={<ContactList/>}/>
-                    <Route path="/contact-modify" element={<ContactModify/>}/>
-                    <Route path="/" element={<Navigate to="/counter"/>}/>
+                    <Route path="/" element={<Navigate to="/user"/>}/>
                     <Route path="*" element={<h2 className="p-3">Not Found!</h2>}/>
                 </Route>
                 {/*<Route path="/auth" element={<Login/>}/>*/}
