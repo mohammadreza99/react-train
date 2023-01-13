@@ -1,13 +1,19 @@
-export const Input = ({onChange,label,name,error}) => {
+export const Input = ({className, onChange, label, name, error}) => {
+    function getId() {
+        return 'id' + Math.random().toString(16).slice(2);
+    }
+
     return (
-        <div className="mb-3">
+        <div className={className}>
             <label htmlFor={name} className="form-label">{label}</label>
-            <input className="form-control" name={name} id={name}
+            <input className="form-control"
+                   name={name}
+                   id={name}
                    onChange={onChange}/>
             {error && (
-                <h1 style={{backgroundColor:"crimson",color:"palegreen"}}>
+                <span style={{backgroundColor: "crimson", color: "palegreen"}}>
                     {error?.[name]}
-                </h1>
+                </span>
             )}
         </div>
     )
