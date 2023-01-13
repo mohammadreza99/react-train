@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89fac6dd-ab48-437e-af83-4ad9057307a3" name="Changes" comment="first commit" />
+    <list default="true" id="74839f90-233b-4940-abca-343982e71338" name="Changes" comment="implement routing">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/scss/custom-variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ContactItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Input.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactList.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/ContactModify.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/scss/bootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/scss/bootstrap.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Counter.class.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.class.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Counter.func.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Counter.func.jsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,45 +27,116 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2GRWd5qJmTnri72OKniaUYKSLlT" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="2K2eqBHLYKWHbrnHbXKALbM2V1R" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "E:/Projects",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../prime-crud" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\components" />
+      <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\pages" />
+      <recent name="C:\Users\PC-22\Downloads\_Projects\react-train\src\assets" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89fac6dd-ab48-437e-af83-4ad9057307a3" name="Changes" comment="" />
-      <created>1666351962712</created>
+      <changelist id="74839f90-233b-4940-abca-343982e71338" name="Changes" comment="" />
+      <created>1673177292572</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666351962712</updated>
-      <workItem from="1666351964070" duration="2941000" />
-      <workItem from="1668091976152" duration="305000" />
+      <updated>1673177292572</updated>
+      <workItem from="1673177294712" duration="1097000" />
+      <workItem from="1673331972637" duration="16256000" />
+      <workItem from="1673422598878" duration="11587000" />
     </task>
-    <task id="LOCAL‎−۰۰۰۰۱" summary="fi">
-      <created>1668092173581</created>
-      <option name="number" value="LOCAL‎−۰۰۰۰۱" />
-      <option name="presentableId" value="LOCAL‎−۰۰۰۰۱" />
-      <updated>1668092173581</updated>
+    <task id="LOCAL‎۰۰۰۰۱" summary="change source files">
+      <created>1673177343413</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1673177343413</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL‎۰۰۰۰۲" summary="change source files">
+      <created>1673177358486</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1673177358486</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۳" summary="add bootstrap files">
+      <created>1673348602330</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۳" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۳" />
+      <updated>1673348602330</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۴" summary="add font files">
+      <created>1673348626899</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۴" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۴" />
+      <updated>1673348626899</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۵" summary="add font files">
+      <created>1673348654019</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۵" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۵" />
+      <updated>1673348654019</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۶" summary="move components to components folder">
+      <created>1673348671446</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۶" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۶" />
+      <updated>1673348671446</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۷" summary="add react-router and sass">
+      <created>1673348702581</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۷" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۷" />
+      <updated>1673348702581</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۸" summary="create navbar component">
+      <created>1673348719076</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۸" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۸" />
+      <updated>1673348719076</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۹" summary="remove styles from index.html">
+      <created>1673348740602</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۹" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۹" />
+      <updated>1673348740602</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۱۰" summary="implement routing">
+      <created>1673348753614</created>
+      <option name="number" value="LOCAL‎۰۰۰۱۰" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۱۰" />
+      <updated>1673348753614</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,7 +154,17 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="change source files" />
+    <MESSAGE value="add bootstrap files" />
+    <MESSAGE value="add font files" />
+    <MESSAGE value="move components to components folder" />
+    <MESSAGE value="add react-router and sass" />
+    <MESSAGE value="create navbar component" />
+    <MESSAGE value="remove styles from index.html" />
+    <MESSAGE value="implement routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="implement routing" />
   </component>
 </project>
