@@ -20,6 +20,7 @@ root.render(
                     <Route path="/user-manager">
                         <Route path="user-list" element={<UserList/>}/>
                         <Route path="user-modify" element={<UserModify/>}/>
+                        <Route path="user-modify/:userId" element={<UserModify/>}/>
                         <Route path="" element={<Navigate to="user-list"/>}/>
                     </Route>
                     <Route path="/" element={<Navigate to="/counter"/>}/>
