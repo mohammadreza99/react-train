@@ -17,8 +17,11 @@ root.render(
             <Routes>
                 <Route path="/" element={<App/>}>
                     <Route path="/counter" element={<Counter/>}/>
-                    <Route path="/contact-list" element={<ContactList/>}/>
-                    <Route path="/contact-modify" element={<ContactModify/>}/>
+                    <Route path="/contact-manager">
+                        <Route path="contact-list" element={<ContactList/>}/>
+                        <Route path="contact-modify" element={<ContactModify/>}/>
+                        <Route path="" element={<Navigate to="contact-list"/>}/>
+                    </Route>
                     <Route path="/" element={<Navigate to="/counter"/>}/>
                     <Route path="*" element={<h2 className="p-3">Not Found!</h2>}/>
                 </Route>

@@ -14,7 +14,7 @@ const ContactList = () => {
             <div className="container-fluid py-3">
                 <div className="d-flex justify-content-between mb-3">
                     <h3 className="mb-0">Contact List</h3>
-                    <Link to="/contact-modify" className="btn btn-success">Add Contact</Link>
+                    <Link to="/contact-manager/contact-modify" className="btn btn-success">Add Contact</Link>
                 </div>
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3">
                     {

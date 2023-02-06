@@ -11,7 +11,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse">
                     <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active" to="/counter">Counter</NavLink>
+                            <NavLink className="nav-link" activeclassname="active" to="/counter">Counter</NavLink>
 
                             {/* another way to show the active link */}
                             {/*<NavLink*/}
@@ -20,7 +20,7 @@ const Navbar = () => {
                             {/*    to="/counter">Counter </NavLink>*/}
                         </li>
                         <li className="nav-item">
-                            <NavLink className="nav-link" activeClassName="active" to="/contact-list">Contact Manager</NavLink>
+                            <NavLink className="nav-link" activeclassname="active" to="/contact-manager">Contact Manager</NavLink>
                         </li>
                     </ul>
                 </div>
